@@ -90,7 +90,6 @@ def student_create(request):
             return redirect("student_list")
 
     departments = Department.objects.all()
-    print(departments)
     return render(request, "student/student_create.html", {
         "departments": departments
     })
