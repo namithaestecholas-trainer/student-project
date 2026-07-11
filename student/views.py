@@ -46,13 +46,13 @@ def department_update(request, pk):
 
 
 def department_delete(request, pk):
-    department = get_object_or_404(Department, pk=pk)
+    departments = get_object_or_404(Department, pk=pk)
     if request.method == "POST":
-        department.delete()
+        departments.delete()
         return redirect("department_list")
 
     return render(request, "department/department_delete.html", {
-        "department": department
+        "department": departments
     })
 
 
