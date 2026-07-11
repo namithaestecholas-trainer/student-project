@@ -1,0 +1,75 @@
+body{
+    background-color:#f8f9fa;
+}
+
+/* Navbar */
+
+.navbar{
+    margin-bottom:20px;
+}
+
+/* Cards */
+
+.card{
+    border-radius:10px;
+    box-shadow:0px 3px 8px rgba(0,0,0,.2);
+}
+
+/* Table */
+
+table{
+    background:white;
+}
+
+table th{
+    text-align:center;
+}
+
+table td{
+    vertical-align:middle;
+}
+
+/* Buttons */
+
+.btn{
+    border-radius:5px;
+}
+
+/* Banner */
+
+img{
+    border-radius:10px;
+}
+
+/* Heading */
+
+h1,h2,h3{
+    font-weight:bold;
+}
+
+/* Form */
+
+form label{
+    font-weight:bold;
+}
+
+.form-control,
+.form-select{
+    margin-bottom:15px;
+}
+
+/* Hover Effect */
+
+.table tbody tr:hover{
+    background:#f1f1f1;
+}
+
+/* Footer */
+
+footer{
+    margin-top:40px;
+    padding:20px;
+    text-align:center;
+    background:#212529;
+    color:white;
+}
